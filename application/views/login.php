@@ -1,6 +1,8 @@
 <?php //session_start();?>
 <!DOCTYPE html>
-<?php include_once("head.php");?>
+
+<?php $this->load->view("head.php");
+//include_once("head.php");?>
 <html>
 <body>
   <div class="top">
@@ -23,5 +25,6 @@
         </p>
       </form>
 </div>
-<?php include_once("foot.php");?>
+<?php $this->load->view("foot.php");
+//include_once("foot.php");?>
 </body>
