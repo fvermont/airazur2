@@ -1,6 +1,6 @@
 <header>
   <div class="top">
-  <center>  <img src="../img/banniere.png" alt="logo"></center>
+  <center>  <img src="./public/img/banniere.png" alt="logo"></center>
   </div>
   <div class="menu">
     <?php this->load->view("menu.php");
